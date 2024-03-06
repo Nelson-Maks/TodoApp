@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+  }
+  
+  .button {
+    background: #209cee;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    
+    padding: 0;
+  }
+  
+  .todo {
+    align-items: center;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;  
+    padding: 10px;
+  }
+  
+  
+  .todo-text {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  .delete-button {
+    background: #f14668;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
